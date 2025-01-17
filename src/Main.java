@@ -7,7 +7,7 @@ public class Main{
     
 		System.out.println("Starting...");
 		
-		File folder = new File("data/");
+		File folder = new File("../data/");
         File[] listOfFiles = folder.listFiles();
 
         for (int i = 0; i < listOfFiles.length; i++) {
